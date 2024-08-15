@@ -1,18 +1,20 @@
 /* CSS FOR SECTION 1 */
+body{
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
+}
 
-.section1{
-    background-color: #1F2937;
-    /* border: 10px solid yellow; */
-    height: 500px;
-    margin-top: 0;
+header{
+    margin-top: 0px;
 }
 
 .navlist{
+    background-color: #1F2937;
     color: white;
     display: flex;
     /* border: 2px solid red; */
     height: 90px;
-    margin-top: 5px;
     padding: 0;
     justify-content: space-between;
 }
@@ -41,15 +43,27 @@ li{
     margin-left: 50px;
 }
 
+.section1{
+    /* border: 2px solid white; */
+    margin-top: 0%;
+    background-color: #1F2937;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .content{
     /* border: 10px solid green; */
     color: white;
     display: flex;
+    width: 70%;
+    height: 70%;
     justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 2%;
-    
+}
+
+.description_box{
+    align-content: center;
 }
 
 p.description_box{
