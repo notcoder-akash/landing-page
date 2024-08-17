@@ -63,31 +63,38 @@ li{
 }
 
 .description_box{
+    /* border: 2px solid red; */
     align-content: center;
+    width: 50%;
+    text-wrap: wrap;
 }
 
-p.description_box{
+.description_box2{
+    /* border: 2px solid red; */
+    align-content: center;
+    text-wrap: wrap;
+}
+
+p.description_box2{
   font-size: 48px;  
   font-weight: bolder;
 }
 
 .image_box{
     /* border: 2px solid red; */
-    width: 50%;
-    align-content: center;
-    padding: 10px;
+    /* background-color: rgb(215, 206, 206); */
+    width: fit-content;
+    color: black;
+    height: fit-content;
 }
 
 .image_boxp{
+    /* align-content: center; */
     background-color: #E5E7EB;
-    align-content: center;
-    /* border: 2px solid white; */
+    /* border: 2px solid black; */
+    /* width:max-content;  */
+    margin: 0 auto;
     height: 100%
-}
-
-p.image{
-    margin-left: 35%;
-    color: black;
 }
 
 .signup_box{
@@ -128,8 +135,8 @@ p.image{
 
 .box{
     /* border:5px solid cyan; */
-    height: 150px;
-    width: 150px;
+    height: fit-content;
+    width: fit-content;
     text-wrap:  wrap;
     text-align: center;
 }
